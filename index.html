@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Mixed Messages</title>
+        <meta charset='UTF-8'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="Stylesheet" type="text/css" href="style.css">
+        <script src="./Script.js"></script>
+    </head>
+
+    <body>
+        <div class="app-container">
+            <div class="title"><h1>Match My Style</h1></div>
+
+            <div class="clothes-container"> 
+                <div class="tops-container">
+
+                    <div class="clothes-title">
+                       <h2>Tops</h2> 
+                    </div>
+
+                    <div class="random-box">
+                        <p id="results-tops"></p>
+                    </div>
+
+                    <div class="footer-container">
+                       <button id="top-button"
+                                onclick="handleTops()"
+                                >
+                                Random
+                            </button> 
+                    </div>                   
+                </div>
+
+                  
+                <div class="bottoms-container">
+
+                    <div class="clothes-title">
+                       <h2>Bottoms</h2> 
+                    </div>
+
+                    <div class="random-box">
+                        <p id="results-bottoms"></p>
+                    </div>
+
+                    <div class="footer-container">
+                        <button id="bottoms-button"
+                                onclick="handleBottoms()"
+                                >
+                                Random
+                            </button>
+                    </div>                  
+                </div>
+
+
+                    
+                <div class="footwear-container">
+
+                    <div class="clothes-title">
+                       <h2>Footwear</h2> 
+                    </div>
+
+                    <div class="random-box">
+                        <p id="results-footwear"></p>
+                    </div>
+
+                    <div class="footer-container">
+                        <button id="footwear-button"
+                                onclick="handleFootwear()"
+                                >
+                                Random
+                            </button>  
+                    </div>
+                </div>                  
+            </div>
+            
+            <div class="reset">
+                <div>
+                    <button id="reset" class="rest-button" onclick="handleReset()">Let's Try Again!!</button>
+                </div>
+            </div>
+
+        </div>
+    </body>
+</html>
