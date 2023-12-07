@@ -31,9 +31,19 @@ function handleFootwear() {
     document.getElementById('results-footwear').innerText = `${randomItem}`
 };
 
+// Reset Button
+
+// function handleReset() {
+//     // Reset the displayed results or perform other cleanup tasks
+//     document.getElementById('results-tops').innerText = '';
+//     document.getElementById('results-bottoms').innerText = '';
+//     document.getElementById('results-footwear').innerText = '';
+// }
+
+
+// fire all 3 function outfits at the same time.
 function handleReset() {
-    // Reset the displayed results or perform other cleanup tasks
-    document.getElementById('results-tops').innerText = '';
-    document.getElementById('results-bottoms').innerText = '';
-    document.getElementById('results-footwear').innerText = '';
+    handleTops()
+    handleBottoms()
+    handleFootwear()
 }
