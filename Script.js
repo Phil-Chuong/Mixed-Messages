@@ -1,7 +1,7 @@
 // Javascripts function
 
-const Tops = ['Dress', 'T-Shirt', 'Vest', 'Polo-Neck', 'Naked'];
-const Bottoms = ['Skirt', 'Trousers', 'Jeans', 'Leggings', 'Shorts', 'Nothing'];
+const Tops = ['Dress', 'T-Shirt', 'Vest', 'Polo-Neck', 'Hooddie'];
+const Bottoms = ['Skirt', 'Trousers', 'Jeans', 'Leggings', 'Shorts', 'Yoga Pants'];
 const Footwear = ['High-Heels', 'Trainers', 'Sandals', 'Boots'];
 
 function handleTops() {
